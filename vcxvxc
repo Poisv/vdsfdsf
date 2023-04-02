@@ -1,0 +1,1499 @@
+local whitelist={'MCG904YT','wyonene123','WhenNew09','johnrocks789','wyonene123_autodrop','MARSHELO23423'}
+if game:GetService("MarketplaceService"):UserOwnsGamePassAsync(game.Players.LocalPlayer.UserId,1510075564)or table.find(whitelist,game:GetService("Players").LocalPlayer.Name)then
+-- Instances:
+
+local FaqxHub = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local title = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local version = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local dropping = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local miscellaneous = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local localplayer = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local otherhubs = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local farming = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UIGradient_7 = Instance.new("UIGradient")
+local FarmingFrame = Instance.new("Frame")
+local UIGradient_8 = Instance.new("UIGradient")
+local UICorner_10 = Instance.new("UICorner")
+local toolname = Instance.new("TextBox")
+local farm = Instance.new("TextButton")
+local UIGradient_9 = Instance.new("UIGradient")
+local UICorner_11 = Instance.new("UICorner")
+local unfarm = Instance.new("TextButton")
+local UIGradient_10 = Instance.new("UIGradient")
+local equip = Instance.new("TextButton")
+local UIGradient_11 = Instance.new("UIGradient")
+local UICorner_12 = Instance.new("UICorner")
+local unequip = Instance.new("TextButton")
+local UIGradient_12 = Instance.new("UIGradient")
+local antiafk = Instance.new("TextButton")
+local UIGradient_13 = Instance.new("UIGradient")
+local UICorner_13 = Instance.new("UICorner")
+local safezone = Instance.new("TextButton")
+local UIGradient_14 = Instance.new("UIGradient")
+local UICorner_14 = Instance.new("UICorner")
+local anchor = Instance.new("TextButton")
+local UIGradient_15 = Instance.new("UIGradient")
+local fps = Instance.new("TextButton")
+local UIGradient_16 = Instance.new("UIGradient")
+local DroppingFrame = Instance.new("Frame")
+local UIGradient_17 = Instance.new("UIGradient")
+local UICorner_15 = Instance.new("UICorner")
+local autoDW = Instance.new("TextButton")
+local UIGradient_18 = Instance.new("UIGradient")
+local UICorner_16 = Instance.new("UICorner")
+local autgod = Instance.new("TextButton")
+local UIGradient_19 = Instance.new("UIGradient")
+local UICorner_17 = Instance.new("UICorner")
+local autoDW_2 = Instance.new("TextButton")
+local UIGradient_20 = Instance.new("UIGradient")
+local UICorner_18 = Instance.new("UICorner")
+local MiscellaneousFrame = Instance.new("Frame")
+local UIGradient_21 = Instance.new("UIGradient")
+local UICorner_19 = Instance.new("UICorner")
+local reviz = Instance.new("TextButton")
+local UIGradient_22 = Instance.new("UIGradient")
+local UICorner_20 = Instance.new("UICorner")
+local small = Instance.new("TextButton")
+local UIGradient_23 = Instance.new("UIGradient")
+local UICorner_21 = Instance.new("UICorner")
+local Antihit = Instance.new("TextButton")
+local UIGradient_24 = Instance.new("UIGradient")
+local UICorner_22 = Instance.new("UICorner")
+local kick = Instance.new("TextButton")
+local UIGradient_25 = Instance.new("UIGradient")
+local UICorner_23 = Instance.new("UICorner")
+local speedx = Instance.new("TextButton")
+local UIGradient_26 = Instance.new("UIGradient")
+local UICorner_24 = Instance.new("UICorner")
+local tall = Instance.new("TextButton")
+local UIGradient_27 = Instance.new("UIGradient")
+local UICorner_25 = Instance.new("UICorner")
+local UICorner_26 = Instance.new("UICorner")
+local delinv = Instance.new("TextButton")
+local UIGradient_28 = Instance.new("UIGradient")
+local UICorner_27 = Instance.new("UICorner")
+local balls = Instance.new("TextButton")
+local UIGradient_29 = Instance.new("UIGradient")
+local UICorner_28 = Instance.new("UICorner")
+local PlayerFrame = Instance.new("Frame")
+local UIGradient_30 = Instance.new("UIGradient")
+local UICorner_29 = Instance.new("UICorner")
+local se = Instance.new("TextLabel")
+local UIGradient_31 = Instance.new("UIGradient")
+local UICorner_30 = Instance.new("UICorner")
+local ta = Instance.new("TextLabel")
+local UICorner_31 = Instance.new("UICorner")
+local UIGradient_32 = Instance.new("UIGradient")
+local ts = Instance.new("TextLabel")
+local UICorner_32 = Instance.new("UICorner")
+local UIGradient_33 = Instance.new("UIGradient")
+local ws = Instance.new("TextBox")
+local bobux = Instance.new("TextButton")
+local UIGradient_34 = Instance.new("UIGradient")
+local UICorner_33 = Instance.new("UICorner")
+local OtherHub = Instance.new("Frame")
+local UIGradient_35 = Instance.new("UIGradient")
+local UICorner_34 = Instance.new("UICorner")
+local synex = Instance.new("TextButton")
+local UIGradient_36 = Instance.new("UIGradient")
+local UICorner_35 = Instance.new("UICorner")
+local snwie = Instance.new("TextButton")
+local UIGradient_37 = Instance.new("UIGradient")
+local UICorner_36 = Instance.new("UICorner")
+local dagger = Instance.new("TextButton")
+local UIGradient_38 = Instance.new("UIGradient")
+local UICorner_37 = Instance.new("UICorner")
+local aber = Instance.new("TextButton")
+local UIGradient_39 = Instance.new("UIGradient")
+local UICorner_38 = Instance.new("UICorner")
+local open = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+
+--Properties:
+
+FaqxHub.Name = "FaqxHub"
+FaqxHub.Parent = game.CoreGui
+FaqxHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = FaqxHub
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.Position = UDim2.new(0.249218553, 0, 0.158548743, 0)
+main.Size = UDim2.new(0, 598, 0, 338)
+main.Visible = false
+main.Active = true
+main.Draggable = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient.Parent = main
+
+title.Name = "title"
+title.Parent = main
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.Size = UDim2.new(0, 598, 0, 50)
+title.Font = Enum.Font.FredokaOne
+title.Text = "Faqx Hub"
+title.TextColor3 = Color3.fromRGB(0, 0, 0)
+title.TextSize = 50.000
+title.TextStrokeTransparency = 0.000
+title.TextWrapped = true
+
+UICorner.CornerRadius = UDim.new(0, 12)
+UICorner.Parent = title
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_2.Parent = title
+
+version.Name = "version"
+version.Parent = main
+version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+version.BackgroundTransparency = 1.000
+version.BorderColor3 = Color3.fromRGB(0, 0, 0)
+version.Position = UDim2.new(0.0468227528, 0, 0.0325443782, 0)
+version.Size = UDim2.new(0, 117, 0, 28)
+version.Font = Enum.Font.PatrickHand
+version.Text = "v:1.0"
+version.TextColor3 = Color3.fromRGB(0, 0, 0)
+version.TextSize = 25.000
+version.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 12)
+UICorner_2.Parent = version
+
+dropping.Name = "dropping"
+dropping.Parent = main
+dropping.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dropping.Position = UDim2.new(0, 0, 0.346153855, 0)
+dropping.Size = UDim2.new(0, 207, 0, 50)
+dropping.Font = Enum.Font.Garamond
+dropping.Text = "Dropping"
+dropping.TextColor3 = Color3.fromRGB(0, 0, 0)
+dropping.TextScaled = true
+dropping.TextSize = 14.000
+dropping.TextStrokeTransparency = 0.000
+dropping.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 12)
+UICorner_3.Parent = dropping
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_3.Parent = dropping
+
+miscellaneous.Name = "miscellaneous"
+miscellaneous.Parent = main
+miscellaneous.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+miscellaneous.Position = UDim2.new(0, 0, 0.511834323, 0)
+miscellaneous.Size = UDim2.new(0, 207, 0, 50)
+miscellaneous.Font = Enum.Font.Garamond
+miscellaneous.Text = "Miscellaneous"
+miscellaneous.TextColor3 = Color3.fromRGB(0, 0, 0)
+miscellaneous.TextScaled = true
+miscellaneous.TextSize = 14.000
+miscellaneous.TextStrokeTransparency = 0.000
+miscellaneous.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 12)
+UICorner_4.Parent = miscellaneous
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_4.Parent = miscellaneous
+
+localplayer.Name = "localplayer"
+localplayer.Parent = main
+localplayer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+localplayer.Position = UDim2.new(0, 0, 0.680473387, 0)
+localplayer.Size = UDim2.new(0, 207, 0, 50)
+localplayer.Font = Enum.Font.Garamond
+localplayer.Text = "Local-Player"
+localplayer.TextColor3 = Color3.fromRGB(0, 0, 0)
+localplayer.TextScaled = true
+localplayer.TextSize = 14.000
+localplayer.TextStrokeTransparency = 0.000
+localplayer.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 12)
+UICorner_5.Parent = localplayer
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_5.Parent = localplayer
+
+otherhubs.Name = "otherhubs"
+otherhubs.Parent = main
+otherhubs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+otherhubs.Position = UDim2.new(0, 0, 0.846153855, 0)
+otherhubs.Size = UDim2.new(0, 207, 0, 50)
+otherhubs.Font = Enum.Font.Garamond
+otherhubs.Text = "Other Hubs"
+otherhubs.TextColor3 = Color3.fromRGB(0, 0, 0)
+otherhubs.TextScaled = true
+otherhubs.TextSize = 14.000
+otherhubs.TextStrokeTransparency = 0.000
+otherhubs.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 12)
+UICorner_6.Parent = otherhubs
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_6.Parent = otherhubs
+
+ImageLabel.Parent = main
+ImageLabel.BackgroundColor3 = Color3.fromRGB(96, 2, 190)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.901176512, 0, 0.000177323818, 0)
+ImageLabel.Size = UDim2.new(0, 58, 0, 57)
+ImageLabel.ZIndex = 2
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_7.CornerRadius = UDim.new(1, 0)
+UICorner_7.Parent = ImageLabel
+
+UICorner_8.CornerRadius = UDim.new(0, 12)
+UICorner_8.Parent = main
+
+farming.Name = "farming"
+farming.Parent = main
+farming.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+farming.Position = UDim2.new(0, 0, 0.168639049, 0)
+farming.Size = UDim2.new(0, 207, 0, 50)
+farming.Font = Enum.Font.Garamond
+farming.Text = "Farming"
+farming.TextColor3 = Color3.fromRGB(0, 0, 0)
+farming.TextScaled = true
+farming.TextSize = 14.000
+farming.TextStrokeTransparency = 0.000
+farming.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 12)
+UICorner_9.Parent = farming
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_7.Parent = farming
+
+FarmingFrame.Name = "FarmingFrame"
+FarmingFrame.Parent = main
+FarmingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FarmingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FarmingFrame.Position = UDim2.new(0.344481617, 0, 0.147928998, 0)
+FarmingFrame.Size = UDim2.new(0, 391, 0, 288)
+FarmingFrame.Visible = false
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_8.Parent = FarmingFrame
+
+UICorner_10.CornerRadius = UDim.new(0, 12)
+UICorner_10.Parent = FarmingFrame
+
+toolname.Name = "toolname"
+toolname.Parent = FarmingFrame
+toolname.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+toolname.BackgroundTransparency = 1.000
+toolname.Position = UDim2.new(0.242966756, 0, 0.027777778, 0)
+toolname.Size = UDim2.new(0, 200, 0, 38)
+toolname.Font = Enum.Font.SourceSans
+toolname.PlaceholderColor3 = Color3.fromRGB(0, 170, 255)
+toolname.PlaceholderText = "Tool Name Here"
+toolname.Text = ""
+toolname.TextColor3 = Color3.fromRGB(0, 0, 0)
+toolname.TextScaled = true
+toolname.TextSize = 14.000
+toolname.TextStrokeTransparency = 0.000
+toolname.TextWrapped = true
+
+farm.Name = "farm"
+farm.Parent = FarmingFrame
+farm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+farm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+farm.BorderSizePixel = 0
+farm.Position = UDim2.new(0.534526825, 0, 0.177083328, 0)
+farm.Size = UDim2.new(0, 146, 0, 50)
+farm.Font = Enum.Font.SourceSans
+farm.Text = "Start Farm"
+farm.TextColor3 = Color3.fromRGB(0, 0, 0)
+farm.TextScaled = true
+farm.TextSize = 14.000
+farm.TextStrokeColor3 = Color3.fromRGB(48, 48, 48)
+farm.TextStrokeTransparency = 0.000
+farm.TextWrapped = true
+farm.MouseButton1Down:connect(function()
+	farm.Visible=false
+	unfarm.Visible=true
+	_G.farm = true
+	while _G.farm do
+		wait(0.60063)
+		for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+			if v.Name == toolname.Text then v:Activate() end
+		end
+	end
+end)
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 255, 0)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(85, 170, 127)), ColorSequenceKeypoint.new(0.99, Color3.fromRGB(85, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_9.Parent = farm
+
+UICorner_11.Parent = farm
+
+unfarm.Name = "unfarm"
+unfarm.Parent = FarmingFrame
+unfarm.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+unfarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+unfarm.BorderSizePixel = 0
+unfarm.Position = UDim2.new(0.534526885, 0, 0.177083343, 0)
+unfarm.Size = UDim2.new(0, 84, 0, 50)
+unfarm.Visible = false
+unfarm.Font = Enum.Font.SourceSans
+unfarm.Text = "Stop Farm"
+unfarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+unfarm.TextScaled = true
+unfarm.TextSize = 14.000
+unfarm.TextStrokeColor3 = Color3.fromRGB(48, 48, 48)
+unfarm.TextStrokeTransparency = 0.000
+unfarm.TextWrapped = true
+unfarm.MouseButton1Down:connect(function()
+	unfarm.Visible=false
+	farm.Visible=true
+	_G.farm=false
+end)
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 255, 0)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(85, 170, 127)), ColorSequenceKeypoint.new(0.99, Color3.fromRGB(85, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_10.Parent = unfarm
+
+equip.Name = "equip"
+equip.Parent = FarmingFrame
+equip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+equip.BorderColor3 = Color3.fromRGB(0, 0, 0)
+equip.BorderSizePixel = 0
+equip.Position = UDim2.new(0.148337603, 0, 0.177083328, 0)
+equip.Size = UDim2.new(0, 137, 0, 50)
+equip.Font = Enum.Font.SourceSans
+equip.Text = "Equip Tool"
+equip.TextColor3 = Color3.fromRGB(0, 0, 0)
+equip.TextScaled = true
+equip.TextSize = 14.000
+equip.TextStrokeColor3 = Color3.fromRGB(48, 48, 48)
+equip.TextStrokeTransparency = 0.000
+equip.TextWrapped = true
+equip.MouseButton1Down:connect(function()
+	equip.Visible=false
+	unequip.Visible=true
+	_G.equip=true
+	while _G.equip do
+		wait(0.5)
+		for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+			if v.Name == toolname.Text then
+				v.Parent = game.Players.LocalPlayer.Character
+			end
+		end
+	end
+end)
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 255, 0)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(85, 170, 127)), ColorSequenceKeypoint.new(0.99, Color3.fromRGB(85, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_11.Parent = equip
+
+UICorner_12.Parent = equip
+
+unequip.Name = "unequip"
+unequip.Parent = FarmingFrame
+unequip.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+unequip.BorderColor3 = Color3.fromRGB(0, 0, 0)
+unequip.BorderSizePixel = 0
+unequip.Position = UDim2.new(0.283887506, 0, 0.177083313, 0)
+unequip.Size = UDim2.new(0, 84, 0, 50)
+unequip.Visible = false
+unequip.Font = Enum.Font.SourceSans
+unequip.Text = "Unequip"
+unequip.TextColor3 = Color3.fromRGB(0, 0, 0)
+unequip.TextScaled = true
+unequip.TextSize = 14.000
+unequip.TextStrokeColor3 = Color3.fromRGB(48, 48, 48)
+unequip.TextStrokeTransparency = 0.000
+unequip.TextWrapped = true
+unequip.MouseButton1Down:connect(function()
+	unequip.Visible=false
+	equip.Visible=true
+	_G.equip=false
+end)
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 255, 0)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(85, 170, 127)), ColorSequenceKeypoint.new(0.99, Color3.fromRGB(85, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_12.Parent = unequip
+
+antiafk.Name = "antiafk"
+antiafk.Parent = FarmingFrame
+antiafk.BackgroundColor3 = Color3.fromRGB(122, 122, 122)
+antiafk.BorderColor3 = Color3.fromRGB(0, 0, 0)
+antiafk.BorderSizePixel = 0
+antiafk.Position = UDim2.new(0.148337603, 0, 0.399305552, 0)
+antiafk.Size = UDim2.new(0, 137, 0, 50)
+antiafk.Font = Enum.Font.SourceSans
+antiafk.Text = "AFK"
+antiafk.TextColor3 = Color3.fromRGB(0, 0, 0)
+antiafk.TextScaled = true
+antiafk.TextSize = 14.000
+antiafk.TextStrokeColor3 = Color3.fromRGB(48, 48, 48)
+antiafk.TextStrokeTransparency = 0.000
+antiafk.TextWrapped = true
+antiafk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/MCG904YT/MCG-Script-Hub/main/MCG%20Anti-AFK%20Kick%20%7C%20GUI'))()
+end)
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_13.Parent = antiafk
+
+UICorner_13.Parent = antiafk
+
+safezone.Name = "safezone"
+safezone.Parent = FarmingFrame
+safezone.BackgroundColor3 = Color3.fromRGB(122, 122, 122)
+safezone.BorderColor3 = Color3.fromRGB(0, 0, 0)
+safezone.BorderSizePixel = 0
+safezone.Position = UDim2.new(0.534526825, 0, 0.399305552, 0)
+safezone.Size = UDim2.new(0, 146, 0, 50)
+safezone.Font = Enum.Font.SourceSans
+safezone.Text = "Safezone"
+safezone.TextColor3 = Color3.fromRGB(0, 0, 0)
+safezone.TextScaled = true
+safezone.TextSize = 14.000
+safezone.TextStrokeColor3 = Color3.fromRGB(48, 48, 48)
+safezone.TextStrokeTransparency = 0.000
+safezone.TextWrapped = true
+safezone.MouseButton1Down:connect(function()
+	game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(-1977.9436, 510, -5295.2124, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_14.Parent = safezone
+
+UICorner_14.Parent = safezone
+
+anchor.Name = "anchor"
+anchor.Parent = FarmingFrame
+anchor.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+anchor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+anchor.BorderSizePixel = 0
+anchor.Position = UDim2.new(0.148337603, 0, 0.597222328, 0)
+anchor.Size = UDim2.new(0, 297, 0, 50)
+anchor.Font = Enum.Font.SourceSans
+anchor.Text = "Lock Player"
+anchor.TextColor3 = Color3.fromRGB(0, 0, 0)
+anchor.TextScaled = true
+anchor.TextSize = 14.000
+anchor.TextStrokeTransparency = 0.000
+anchor.TextWrapped = true
+anchor.MouseButton1Down:connect(function()
+	local player=game:GetService("Players").LocalPlayer
+	local playerName=player.Name
+	game:GetService("Workspace")[playerName].UpperTorso.Anchored=true
+end)
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_15.Parent = anchor
+
+fps.Name = "fps"
+fps.Parent = FarmingFrame
+fps.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+fps.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fps.BorderSizePixel = 0
+fps.Position = UDim2.new(0.148337603, 0, 0.795139015, 0)
+fps.Size = UDim2.new(0, 297, 0, 50)
+fps.Font = Enum.Font.SourceSans
+fps.Text = "FPS"
+fps.TextColor3 = Color3.fromRGB(0, 0, 0)
+fps.TextScaled = true
+fps.TextSize = 14.000
+fps.TextStrokeTransparency = 0.000
+fps.TextWrapped = true
+fps.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/MCG904YT/fps/main/fps'))()
+end)
+
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_16.Parent = fps
+
+DroppingFrame.Name = "DroppingFrame"
+DroppingFrame.Parent = main
+DroppingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DroppingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DroppingFrame.Position = UDim2.new(0.344481617, 0, 0.147928998, 0)
+DroppingFrame.Size = UDim2.new(0, 391, 0, 288)
+DroppingFrame.Visible = false
+
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_17.Parent = DroppingFrame
+
+UICorner_15.CornerRadius = UDim.new(0, 12)
+UICorner_15.Parent = DroppingFrame
+
+autoDW.Name = "autoDW"
+autoDW.Parent = DroppingFrame
+autoDW.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+autoDW.BorderColor3 = Color3.fromRGB(0, 0, 0)
+autoDW.BorderSizePixel = 0
+autoDW.Position = UDim2.new(0.209718674, 0, 0.166666672, 0)
+autoDW.Size = UDim2.new(0, 243, 0, 50)
+autoDW.Font = Enum.Font.SourceSans
+autoDW.Text = "Auto Equip DW"
+autoDW.TextColor3 = Color3.fromRGB(0, 0, 0)
+autoDW.TextScaled = true
+autoDW.TextSize = 14.000
+autoDW.TextStrokeColor3 = Color3.fromRGB(170, 255, 255)
+autoDW.TextStrokeTransparency = 0.000
+autoDW.TextWrapped = true
+autoDW.MouseButton1Down:connect(function()
+	_G.Equip = true
+	while _G.Equip do
+		wait(1.89)
+		for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+			if v.Name == "Double Weight" then v:Activate()
+				v.Parent = game.Players.LocalPlayer.Character
+			end
+		end
+	end
+end)
+
+UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_18.Parent = autoDW
+
+UICorner_16.CornerRadius = UDim.new(0, 12)
+UICorner_16.Parent = autoDW
+
+autgod.Name = "autgod"
+autgod.Parent = DroppingFrame
+autgod.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+autgod.Position = UDim2.new(0.209718674, 0, 0.62499994, 0)
+autgod.Size = UDim2.new(0, 243, 0, 50)
+autgod.Font = Enum.Font.SourceSans
+autgod.Text = "Auto God Mode"
+autgod.TextColor3 = Color3.fromRGB(0, 0, 0)
+autgod.TextScaled = true
+autgod.TextSize = 14.000
+autgod.TextStrokeColor3 = Color3.fromRGB(170, 255, 255)
+autgod.TextStrokeTransparency = 0.000
+autgod.TextWrapped = true
+autgod.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/CjVD4RZN", true))()
+end)
+
+UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_19.Parent = autgod
+
+UICorner_17.CornerRadius = UDim.new(0, 12)
+UICorner_17.Parent = autgod
+
+autoDW_2.Name = "autoDW"
+autoDW_2.Parent = DroppingFrame
+autoDW_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+autoDW_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+autoDW_2.BorderSizePixel = 0
+autoDW_2.Position = UDim2.new(0.209718674, 0, 0.402777791, 0)
+autoDW_2.Size = UDim2.new(0, 243, 0, 50)
+autoDW_2.Font = Enum.Font.SourceSans
+autoDW_2.Text = "Auto Equip DB"
+autoDW_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+autoDW_2.TextScaled = true
+autoDW_2.TextSize = 14.000
+autoDW_2.TextStrokeColor3 = Color3.fromRGB(170, 255, 255)
+autoDW_2.TextStrokeTransparency = 0.000
+autoDW_2.TextWrapped = true
+autoDW_2.MouseButton1Down:connect(function()
+	_G.Equip = true
+	while _G.Equip do
+		wait(1.89)
+		for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+			if v.Name == "Double Weight" then v:Activate()
+				v.Parent = game.Players.LocalPlayer.Character
+			end
+		end
+	end
+end)
+
+UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_20.Parent = autoDW_2
+
+UICorner_18.CornerRadius = UDim.new(0, 12)
+UICorner_18.Parent = autoDW_2
+
+MiscellaneousFrame.Name = "MiscellaneousFrame"
+MiscellaneousFrame.Parent = main
+MiscellaneousFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MiscellaneousFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MiscellaneousFrame.Position = UDim2.new(0.346153855, 0, 0.142011836, 0)
+MiscellaneousFrame.Size = UDim2.new(0, 391, 0, 288)
+MiscellaneousFrame.Visible = false
+
+UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_21.Parent = MiscellaneousFrame
+
+UICorner_19.CornerRadius = UDim.new(0, 12)
+UICorner_19.Parent = MiscellaneousFrame
+
+reviz.Name = "reviz"
+reviz.Parent = MiscellaneousFrame
+reviz.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+reviz.BorderColor3 = Color3.fromRGB(0, 0, 0)
+reviz.BorderSizePixel = 0
+reviz.Position = UDim2.new(0.0409207158, 0, 0.0520833321, 0)
+reviz.Size = UDim2.new(0, 154, 0, 50)
+reviz.Font = Enum.Font.SourceSans
+reviz.Text = "Reviz Admin"
+reviz.TextColor3 = Color3.fromRGB(0, 0, 0)
+reviz.TextScaled = true
+reviz.TextSize = 14.000
+reviz.TextStrokeTransparency = 0.000
+reviz.TextWrapped = true
+reviz.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/MCG904YT/Reviz/main/Reviz'))()
+end)
+
+UIGradient_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_22.Parent = reviz
+
+UICorner_20.Parent = reviz
+
+small.Name = "small"
+small.Parent = MiscellaneousFrame
+small.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+small.BorderColor3 = Color3.fromRGB(0, 0, 0)
+small.BorderSizePixel = 0
+small.Position = UDim2.new(0.0409207158, 0, 0.49999997, 0)
+small.Size = UDim2.new(0, 154, 0, 50)
+small.Font = Enum.Font.SourceSans
+small.Text = "Become Small"
+small.TextColor3 = Color3.fromRGB(0, 0, 0)
+small.TextScaled = true
+small.TextSize = 14.000
+small.TextStrokeTransparency = 0.000
+small.TextWrapped = true
+small.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.BodyWidthScale:Destroy()
+	game.Players.LocalPlayer.Character.Humanoid.BodyHeightScale:Destroy()
+	game.Players.LocalPlayer.Character.Humanoid.BodyDepthScale:Destroy()
+end)
+
+UIGradient_23.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_23.Parent = small
+
+UICorner_21.Parent = small
+
+Antihit.Name = "Anti hit"
+Antihit.Parent = MiscellaneousFrame
+Antihit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Antihit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Antihit.BorderSizePixel = 0
+Antihit.Position = UDim2.new(0.0409207158, 0, 0.746527731, 0)
+Antihit.Size = UDim2.new(0, 154, 0, 50)
+Antihit.Font = Enum.Font.SourceSans
+Antihit.Text = "Anti Hit"
+Antihit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Antihit.TextScaled = true
+Antihit.TextSize = 14.000
+Antihit.TextStrokeTransparency = 0.000
+Antihit.TextWrapped = true
+Antihit.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/MCG904YT/MCG-Script-Hub/main/MCG%20Anti-Hit%20%7C%20GUI'))()
+end)
+
+UIGradient_24.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_24.Parent = Antihit
+
+UICorner_22.Parent = Antihit
+
+kick.Name = "kick"
+kick.Parent = MiscellaneousFrame
+kick.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+kick.BorderColor3 = Color3.fromRGB(0, 0, 0)
+kick.BorderSizePixel = 0
+kick.Position = UDim2.new(0.537084401, 0, 0.274305493, 0)
+kick.Size = UDim2.new(0, 154, 0, 50)
+kick.Font = Enum.Font.SourceSans
+kick.Text = "Free Strength"
+kick.TextColor3 = Color3.fromRGB(0, 0, 0)
+kick.TextScaled = true
+kick.TextSize = 14.000
+kick.TextStrokeTransparency = 0.000
+kick.TextWrapped = true
+kick.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer:Kick("L bozo get gooder dumbass")
+end)
+
+UIGradient_25.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_25.Parent = kick
+
+UICorner_23.Parent = kick
+
+speedx.Name = "speedx"
+speedx.Parent = MiscellaneousFrame
+speedx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+speedx.BorderColor3 = Color3.fromRGB(0, 0, 0)
+speedx.BorderSizePixel = 0
+speedx.Position = UDim2.new(0.537084401, 0, 0.0624999516, 0)
+speedx.Size = UDim2.new(0, 154, 0, 50)
+speedx.Font = Enum.Font.SourceSans
+speedx.Text = "Speed X"
+speedx.TextColor3 = Color3.fromRGB(0, 0, 0)
+speedx.TextScaled = true
+speedx.TextSize = 14.000
+speedx.TextStrokeTransparency = 0.000
+speedx.TextWrapped = true
+speedx.MouseButton1Down:connect(function()
+		local walkspeedplayer = game:GetService("Players").LocalPlayer
+		local walkspeedmouse = walkspeedplayer:GetMouse()
+
+		local walkspeedenabled = false
+
+		function x_walkspeed(key)
+			if (key == "x") then
+				if walkspeedenabled == false then
+					_G.WS = 200;
+					local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+					Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+						Humanoid.WalkSpeed = _G.WS;
+					end)
+					Humanoid.WalkSpeed = _G.WS;
+
+					walkspeedenabled = true
+				elseif walkspeedenabled == true then
+					_G.WS = 30;
+					local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+					Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+						Humanoid.WalkSpeed = _G.WS;
+					end)
+					Humanoid.WalkSpeed = _G.WS;
+
+					walkspeedenabled = false
+				end
+			end
+		end
+
+		walkspeedmouse.KeyDown:connect(x_walkspeed)
+end)
+
+UIGradient_26.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_26.Parent = speedx
+
+UICorner_24.Parent = speedx
+
+tall.Name = "tall"
+tall.Parent = MiscellaneousFrame
+tall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tall.BorderSizePixel = 0
+tall.Position = UDim2.new(0.0409207046, 0, 0.274305493, 0)
+tall.Size = UDim2.new(0, 154, 0, 50)
+tall.Font = Enum.Font.SourceSans
+tall.Text = "Become Tall"
+tall.TextColor3 = Color3.fromRGB(0, 0, 0)
+tall.TextScaled = true
+tall.TextSize = 14.000
+tall.TextStrokeTransparency = 0.000
+tall.TextWrapped = true
+tall.MouseButton1Down:connect(function()
+		--Shit ass script made by failedmite57926
+
+		local LocalPlayer = game:GetService("Players").LocalPlayer
+		local Character = LocalPlayer.Character
+		local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+
+		function rm()
+			for i,v in pairs(Character:GetDescendants()) do
+				if v:IsA("BasePart") then
+					if v.Name == "Handle" or v.Name == "Head" then
+						if Character.Head:FindFirstChild("OriginalSize") then
+							Character.Head.OriginalSize:Destroy()
+						end
+					else
+						for i,cav in pairs(v:GetDescendants()) do
+							if cav:IsA("Attachment") then
+								if cav:FindFirstChild("OriginalPosition") then
+									cav.OriginalPosition:Destroy()  
+								end
+							end
+						end
+						v:FindFirstChild("OriginalSize"):Destroy()
+						if v:FindFirstChild("AvatarPartScaleType") then
+							v:FindFirstChild("AvatarPartScaleType"):Destroy()
+						end
+					end
+				end
+			end
+		end
+
+		rm()
+		wait(0.5)
+		Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+		wait(1)
+
+		rm()
+		wait(0.5)
+		Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+		wait(1)
+
+		rm()
+		wait(0.5)
+		Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+		wait(1)
+
+		rm()
+		wait(0.5)
+		Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+		wait(1)
+
+		rm()
+		wait(0.5)
+		Humanoid:FindFirstChild("HeadScale"):Destroy()
+		wait(1)
+	end)
+	
+UIGradient_27.Parent = tall
+
+UICorner_25.Parent = tall
+
+UICorner_26.Parent = tall
+
+delinv.Name = "delinv"
+delinv.Parent = MiscellaneousFrame
+delinv.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+delinv.BorderColor3 = Color3.fromRGB(0, 0, 0)
+delinv.BorderSizePixel = 0
+delinv.Position = UDim2.new(0.537084401, 0, 0.49999994, 0)
+delinv.Size = UDim2.new(0, 154, 0, 50)
+delinv.Font = Enum.Font.SourceSans
+delinv.Text = "Delete Inventory"
+delinv.TextColor3 = Color3.fromRGB(0, 0, 0)
+delinv.TextScaled = true
+delinv.TextSize = 14.000
+delinv.TextStrokeTransparency = 0.000
+delinv.TextWrapped = true
+	delinv.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Backpack:Destroy()
+	end)
+UIGradient_28.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_28.Parent = delinv
+
+UICorner_27.Parent = delinv
+
+balls.Name = "balls"
+balls.Parent = MiscellaneousFrame
+balls.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+balls.BorderColor3 = Color3.fromRGB(0, 0, 0)
+balls.BorderSizePixel = 0
+balls.Position = UDim2.new(0.537084401, 0, 0.746527731, 0)
+balls.Size = UDim2.new(0, 154, 0, 50)
+balls.Font = Enum.Font.SourceSans
+balls.Text = "Rejoin Server"
+balls.TextColor3 = Color3.fromRGB(0, 0, 0)
+balls.TextScaled = true
+balls.TextSize = 14.000
+balls.TextStrokeTransparency = 0.000
+balls.TextWrapped = true
+	balls.MouseButton1Down:connect(function()
+		local ts = game:GetService("TeleportService")
+		local p = game:GetService("Players").LocalPlayer
+		ts:Teleport(game.PlaceId,p)
+	end)
+UIGradient_29.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_29.Parent = balls
+
+UICorner_28.Parent = balls
+
+PlayerFrame.Name = "PlayerFrame"
+PlayerFrame.Parent = main
+PlayerFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerFrame.Position = UDim2.new(0.346153855, 0, 0.147928953, 0)
+PlayerFrame.Size = UDim2.new(0, 391, 0, 288)
+PlayerFrame.Visible = false
+
+UIGradient_30.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_30.Parent = PlayerFrame
+
+UICorner_29.CornerRadius = UDim.new(0, 12)
+UICorner_29.Parent = PlayerFrame
+
+se.Name = "se"
+se.Parent = PlayerFrame
+se.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+se.BorderColor3 = Color3.fromRGB(0, 0, 0)
+se.Position = UDim2.new(0.0255754478, 0, 0.201388896, 0)
+se.Size = UDim2.new(0, 176, 0, 48)
+se.Font = Enum.Font.SourceSans
+se.Text = "Strength Earned"
+se.TextColor3 = Color3.fromRGB(0, 0, 0)
+se.TextScaled = true
+se.TextSize = 14.000
+se.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+se.TextStrokeTransparency = 0.000
+se.TextWrapped = true
+
+UIGradient_31.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_31.Parent = se
+
+UICorner_30.Parent = se
+
+ta.Name = "ta"
+ta.Parent = PlayerFrame
+ta.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ta.Position = UDim2.new(0.0255754478, 0, 0.4375, 0)
+ta.Size = UDim2.new(0, 176, 0, 50)
+ta.Font = Enum.Font.SourceSans
+ta.Text = "Total Tools"
+ta.TextColor3 = Color3.fromRGB(0, 0, 0)
+ta.TextScaled = true
+ta.TextSize = 14.000
+ta.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+ta.TextStrokeTransparency = 0.000
+ta.TextWrapped = true
+
+UICorner_31.Parent = ta
+
+UIGradient_32.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_32.Parent = ta
+
+ts.Name = "ts"
+ts.Parent = PlayerFrame
+ts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ts.Position = UDim2.new(0.0255754478, 0, 0.684027791, 0)
+ts.Size = UDim2.new(0, 176, 0, 50)
+ts.Font = Enum.Font.SourceSans
+ts.Text = "Total Strength"
+ts.TextColor3 = Color3.fromRGB(0, 0, 0)
+ts.TextScaled = true
+ts.TextSize = 14.000
+ts.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+ts.TextStrokeTransparency = 0.000
+ts.TextWrapped = true
+
+UICorner_32.Parent = ts
+
+UIGradient_33.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(54, 54, 54)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(91, 91, 91)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_33.Parent = ts
+
+ws.Name = "ws"
+ws.Parent = PlayerFrame
+ws.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ws.BackgroundTransparency = 1.000
+ws.Position = UDim2.new(0.60613811, 0, 0.232638896, 0)
+ws.Size = UDim2.new(0, 143, 0, 48)
+ws.Font = Enum.Font.SourceSans
+ws.PlaceholderColor3 = Color3.fromRGB(255, 0, 0)
+ws.PlaceholderText = "Player Walkspeed (number)"
+ws.Text = ""
+ws.TextColor3 = Color3.fromRGB(0, 0, 0)
+ws.TextScaled = true
+ws.TextSize = 14.000
+ws.TextWrapped = true
+
+bobux.Name = "bobux"
+bobux.Parent = PlayerFrame
+bobux.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bobux.BorderColor3 = Color3.fromRGB(0, 0, 0)
+bobux.Position = UDim2.new(0.595907927, 0, 0.600694418, 0)
+bobux.Size = UDim2.new(0, 139, 0, 50)
+bobux.Font = Enum.Font.SourceSans
+bobux.Text = "! FREE ROBUX ! OMG IT'S REAL!!"
+bobux.TextColor3 = Color3.fromRGB(255, 0, 0)
+bobux.TextScaled = true
+bobux.TextSize = 14.000
+bobux.TextStrokeTransparency = 0.000
+bobux.TextWrapped = true
+bobux.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer:Kick("L bozo get gooder dumbass")
+end)
+
+UIGradient_34.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_34.Parent = bobux
+
+UICorner_33.CornerRadius = UDim.new(0, 12)
+UICorner_33.Parent = bobux
+
+OtherHub.Name = "OtherHub"
+OtherHub.Parent = main
+OtherHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OtherHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OtherHub.Position = UDim2.new(0.342809379, 0, 0.147928923, 0)
+OtherHub.Size = UDim2.new(0, 391, 0, 288)
+OtherHub.Visible = false
+
+UIGradient_35.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_35.Parent = OtherHub
+
+UICorner_34.CornerRadius = UDim.new(0, 12)
+UICorner_34.Parent = OtherHub
+
+synex.Name = "synex"
+synex.Parent = OtherHub
+synex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+synex.BorderColor3 = Color3.fromRGB(0, 0, 0)
+synex.Position = UDim2.new(0.278772384, 0, 0.0833333358, 0)
+synex.Size = UDim2.new(0, 172, 0, 50)
+synex.Font = Enum.Font.SourceSans
+synex.Text = "Synex Hub"
+synex.TextColor3 = Color3.fromRGB(255, 0, 0)
+synex.TextScaled = true
+synex.TextSize = 14.000
+synex.TextStrokeTransparency = 0.000
+synex.TextWrapped = true
+	synex.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/MCG904YT/Synex-Hub/main/Synex%20Hub%20Version%3A%202.0'))()
+	end)
+
+UIGradient_36.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_36.Parent = synex
+
+UICorner_35.CornerRadius = UDim.new(0, 12)
+UICorner_35.Parent = synex
+
+snwie.Name = "snwie"
+snwie.Parent = OtherHub
+snwie.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+snwie.BorderColor3 = Color3.fromRGB(0, 0, 0)
+snwie.Position = UDim2.new(0.278772384, 0, 0.305555552, 0)
+snwie.Size = UDim2.new(0, 172, 0, 50)
+snwie.Font = Enum.Font.SourceSans
+snwie.Text = "Snwie Hub"
+snwie.TextColor3 = Color3.fromRGB(255, 0, 0)
+snwie.TextScaled = true
+snwie.TextSize = 14.000
+snwie.TextStrokeTransparency = 0.000
+snwie.TextWrapped = true
+	snwie.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/BigChicken554/Snwie-Hub/main/Snwie%20Hub%20V1'))()
+	end)
+UIGradient_37.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_37.Parent = snwie
+
+UICorner_36.CornerRadius = UDim.new(0, 12)
+UICorner_36.Parent = snwie
+
+dagger.Name = "dagger"
+dagger.Parent = OtherHub
+dagger.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dagger.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dagger.Position = UDim2.new(0.278772384, 0, 0.538194418, 0)
+dagger.Size = UDim2.new(0, 172, 0, 50)
+dagger.Font = Enum.Font.SourceSans
+dagger.Text = "Dagger Hub"
+dagger.TextColor3 = Color3.fromRGB(255, 0, 0)
+dagger.TextScaled = true
+dagger.TextSize = 14.000
+dagger.TextStrokeTransparency = 0.000
+dagger.TextWrapped = true
+	dagger.MouseButton1Down:connect(function()
+		print(2)
+	end)
+UIGradient_38.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_38.Parent = dagger
+
+UICorner_37.CornerRadius = UDim.new(0, 12)
+UICorner_37.Parent = dagger
+
+aber.Name = "aber"
+aber.Parent = OtherHub
+aber.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aber.BorderColor3 = Color3.fromRGB(0, 0, 0)
+aber.Position = UDim2.new(0.278772384, 0, 0.767361224, 0)
+aber.Size = UDim2.new(0, 172, 0, 50)
+aber.Font = Enum.Font.SourceSans
+aber.Text = "Aber Hub"
+aber.TextColor3 = Color3.fromRGB(255, 0, 0)
+aber.TextScaled = true
+aber.TextSize = 14.000
+aber.TextStrokeTransparency = 0.000
+aber.TextWrapped = true
+aber.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Aberthegod/Aber-Hub/main/v1"))()
+	end)
+UIGradient_39.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(22, 22, 22)), ColorSequenceKeypoint.new(0.65, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(97, 97, 97))}
+UIGradient_39.Parent = aber
+
+UICorner_38.CornerRadius = UDim.new(0, 12)
+UICorner_38.Parent = aber
+open.Name = "open"
+open.Parent = FaqxHub
+open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+open.Position = UDim2.new(0.00728891278, 0, 0.531428993, 0)
+open.Size = UDim2.new(0, 91, 0, 50)
+open.Font = Enum.Font.Kalam
+open.Text = "Open/Close"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextScaled = true
+open.TextSize = 14.000
+open.TextWrapped = true
+open.MouseButton1Down:connect(function()
+		main.Visible=not main.Visible
+	end)
+UICorner_39.CornerRadius = UDim.new(0, 12)
+UICorner_39.Parent = open
+
+-- Scripts:
+
+local function EQNUYSF_fake_script() -- title.rainbow 
+	local script = Instance.new('LocalScript', title)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	counter = 0
+	while wait(0.1)do
+		script.Parent.TextColor=Color3.fromHSV(zigzag(counter),1,1)
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(EQNUYSF_fake_script)()
+local function YLCKOIB_fake_script() -- dropping.LocalScript 
+	local script = Instance.new('LocalScript', dropping)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRemoveTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-1, 0)})
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(0.4, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+	
+		isHovering = true
+	
+		gradientRemoveTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+	
+		isHovering = false
+	
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+	
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+	
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientRemoveTween:Play()
+		end
+	end)
+end
+coroutine.wrap(YLCKOIB_fake_script)()
+local function WKQY_fake_script() -- dropping.tab 
+	local script = Instance.new('LocalScript', dropping)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.FarmingFrame.Visible=false
+		script.Parent.Parent.DroppingFrame.Visible=true
+		script.Parent.Parent.MiscellaneousFrame.Visible=false
+		script.Parent.Parent.PlayerFrame.Visible=false
+		script.Parent.Parent.OtherHub.Visible=false
+	end)
+end
+coroutine.wrap(WKQY_fake_script)()
+local function YKUHA_fake_script() -- miscellaneous.LocalScript 
+	local script = Instance.new('LocalScript', miscellaneous)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRemoveTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-1, 0)})
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(0.4, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+	
+		isHovering = true
+	
+		gradientRemoveTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+	
+		isHovering = false
+	
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+	
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+	
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientRemoveTween:Play()
+		end
+	end)
+end
+coroutine.wrap(YKUHA_fake_script)()
+local function UMEGZCX_fake_script() -- miscellaneous.tab 
+	local script = Instance.new('LocalScript', miscellaneous)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.FarmingFrame.Visible=false
+		script.Parent.Parent.DroppingFrame.Visible=false
+		script.Parent.Parent.MiscellaneousFrame.Visible=true
+		script.Parent.Parent.PlayerFrame.Visible=false
+		script.Parent.Parent.OtherHub.Visible=false
+	end)
+end
+coroutine.wrap(UMEGZCX_fake_script)()
+local function UVEBDOB_fake_script() -- localplayer.LocalScript 
+	local script = Instance.new('LocalScript', localplayer)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRemoveTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-1, 0)})
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(0.4, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+	
+		isHovering = true
+	
+		gradientRemoveTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+	
+		isHovering = false
+	
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+	
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+	
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientRemoveTween:Play()
+		end
+	end)
+end
+coroutine.wrap(UVEBDOB_fake_script)()
+local function WFHOTJS_fake_script() -- localplayer.tab 
+	local script = Instance.new('LocalScript', localplayer)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.FarmingFrame.Visible=false
+		script.Parent.Parent.DroppingFrame.Visible=false
+		script.Parent.Parent.MiscellaneousFrame.Visible=false
+		script.Parent.Parent.PlayerFrame.Visible=true
+		script.Parent.Parent.OtherHub.Visible=false
+	end)
+end
+coroutine.wrap(WFHOTJS_fake_script)()
+local function QNXLQN_fake_script() -- otherhubs.LocalScript 
+	local script = Instance.new('LocalScript', otherhubs)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRemoveTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-1, 0)})
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(0.4, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+	
+		isHovering = true
+	
+		gradientRemoveTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+	
+		isHovering = false
+	
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+	
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+	
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientRemoveTween:Play()
+		end
+	end)
+end
+coroutine.wrap(QNXLQN_fake_script)()
+local function BXZS_fake_script() -- otherhubs.tab 
+	local script = Instance.new('LocalScript', otherhubs)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.FarmingFrame.Visible=false
+		script.Parent.Parent.DroppingFrame.Visible=false
+		script.Parent.Parent.MiscellaneousFrame.Visible=false
+		script.Parent.Parent.PlayerFrame.Visible=false
+		script.Parent.Parent.OtherHub.Visible=true
+	end)
+end
+coroutine.wrap(BXZS_fake_script)()
+local function ZZHK_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	local Plrs = game:GetService("Players")
+	
+	local plr = Plrs.LocalPlayer
+	
+	local userId = plr.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size60x60
+	local content,isReady = Plrs:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	
+	
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+end
+coroutine.wrap(ZZHK_fake_script)()
+local function KERVDQF_fake_script() -- farming.LocalScript 
+	local script = Instance.new('LocalScript', farming)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRemoveTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-1, 0)})
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(0.4, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+	
+		isHovering = true
+	
+		gradientRemoveTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+	
+		isHovering = false
+	
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+	
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+	
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientRemoveTween:Play()
+		end
+	end)
+end
+coroutine.wrap(KERVDQF_fake_script)()
+local function GYPQ_fake_script() -- farming.tab 
+	local script = Instance.new('LocalScript', farming)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.FarmingFrame.Visible=true
+		script.Parent.Parent.DroppingFrame.Visible=false
+		script.Parent.Parent.MiscellaneousFrame.Visible=false
+		script.Parent.Parent.PlayerFrame.Visible=false
+		script.Parent.Parent.OtherHub.Visible=false
+	end)
+end
+coroutine.wrap(GYPQ_fake_script)()
+local function POTO_fake_script() -- farm.LocalScript 
+	local script = Instance.new('LocalScript', farm)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Visible=false
+		script.Parent.Parent.unfarm.Visible=true
+	end)
+end
+coroutine.wrap(POTO_fake_script)()
+local function QTMGTVC_fake_script() -- unfarm.LocalScript 
+	local script = Instance.new('LocalScript', unfarm)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Visible=false
+		script.Parent.Parent.farm.Visible=true
+	end)
+end
+coroutine.wrap(QTMGTVC_fake_script)()
+local function QDCJKK_fake_script() -- equip.LocalScript 
+	local script = Instance.new('LocalScript', equip)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Visible=false
+		script.Parent.Parent.unequip.Visible=true
+	end)
+end
+coroutine.wrap(QDCJKK_fake_script)()
+local function QSMWRQ_fake_script() -- unequip.LocalScript 
+	local script = Instance.new('LocalScript', unequip)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Visible=false
+		script.Parent.Parent.equip.Visible=true
+	end)
+end
+coroutine.wrap(QSMWRQ_fake_script)()
+local function NPXAH_fake_script() -- open.Script 
+	local script = Instance.new('Script', open)
+
+	
+end
+	coroutine.wrap(NPXAH_fake_script)()
+else
+	game.Players.LocalPlayer.Kick("You must buy Faxq Hub before using the script!")
+end
